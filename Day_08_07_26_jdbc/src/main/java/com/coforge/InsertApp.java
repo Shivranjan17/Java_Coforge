@@ -16,7 +16,7 @@ public class InsertApp {
 	        
 	        String url="jdbc:mysql://localhost:3306/empdb";
 	        String uname="root";
-	        String pwd="root123";
+	        String pwd="****";
 	        //2
 	        Connection con=DriverManager.getConnection(url,uname,pwd);
 	        String qry = "INSERT INTO employeesalary VALUES (?, ?, ?, ?, ?)";

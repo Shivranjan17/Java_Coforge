@@ -19,7 +19,7 @@ public class App {
         System.out.println("Driver loaded");
         String url="jdbc:mysql://localhost:3306/empdb";
         String uname="root";
-        String pwd="root123";
+        String pwd="*****";
         
         //2. Establish connection
         Connection con=DriverManager.getConnection(url,uname,pwd);
