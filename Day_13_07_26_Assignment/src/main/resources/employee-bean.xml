@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+     http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder
+        location="classpath:data.properties" />
+
+    <bean id="emp1"
+        class="com.coforge.Day_13_07_26_Assignment.beans.Employee">
+
+        <property name="id" value="${emp1.id}" />
+        <property name="name" value="${emp1.name}" />
+        <property name="salary" value="${emp1.salary}" />
+        <property name="mobile" value="${emp1.mobile}" />
+        <property name="email" value="${emp1.email}" />
+
+    </bean>
+
+    <bean id="emp2"
+        class="com.coforge.Day_13_07_26_Assignment.beans.Employee">
+
+        <property name="id" value="${emp2.id}" />
+        <property name="name" value="${emp2.name}" />
+        <property name="salary" value="${emp2.salary}" />
+        <property name="mobile" value="${emp2.mobile}" />
+        <property name="email" value="${emp2.email}" />
+
+    </bean>
+
+    <bean id="emp3"
+        class="com.coforge.Day_13_07_26_Assignment.beans.Employee">
+
+        <property name="id" value="${emp3.id}" />
+        <property name="name" value="${emp3.name}" />
+        <property name="salary" value="${emp3.salary}" />
+        <property name="mobile" value="${emp3.mobile}" />
+        <property name="email" value="${emp3.email}" />
+
+    </bean>
+
+</beans>
